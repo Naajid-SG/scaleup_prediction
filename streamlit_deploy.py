@@ -82,5 +82,4 @@ if st.button('Get Prediction'):
     # Make predictions using the model
     prediction = model.predict(data)[0]
     
-    # Display the prediction
     st.write('Prediction:', prediction)
